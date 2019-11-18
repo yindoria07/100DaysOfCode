@@ -22,8 +22,8 @@ int main(){
     }
     for(int i=0; i < b; i++){
         flag = false ;
-        for(int j = i-1 ; j >= 0 ; j--){
-            if( a[j] == a[i] ){
+        for(int j = 0; j<i; j++){
+            if(a[i] == a[j]){
                 flag = true ;
             }
         }
